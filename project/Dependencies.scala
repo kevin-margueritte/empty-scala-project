@@ -3,9 +3,9 @@ import sbt._
 object Dependencies {
 
   object Version {
-    val scalatestVersion  = "3.0.8"
-    val catsEffectVersion = "2.0.0-RC1"
-    val scalacheckVersion = "1.14.0"
+    val scalatestVersion  = "3.2.2"
+    val catsEffectVersion = "2.3.1"
+    val scalacheckVersion = "1.14.1"
   }
 
   val scalatest   = "org.scalatest"   %% "scalatest"    % Version.scalatestVersion  % Test
